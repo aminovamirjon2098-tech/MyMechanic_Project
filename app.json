@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "My Mechanic",
+    "slug": "my-mechanic",
+    "scheme": "mymechanic",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png",
+        "backgroundColor": "#BDF772"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.agonpreview",
+      "blockedPermissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_BACKGROUND_LOCATION"
+      ],
+      "versionCode": 2
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "552f0665-e30d-4f11-9ea9-97bc22a22809"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/552f0665-e30d-4f11-9ea9-97bc22a22809"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "owner": "arcadalabs",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "plugins": [],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
