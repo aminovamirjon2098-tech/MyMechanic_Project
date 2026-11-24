@@ -26,18 +26,9 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "extra": {
-      "eas": {
-        "projectId": "552f0665-e30d-4f11-9ea9-97bc22a22809"
-      }
-    },
-    "updates": {
-      "url": "https://u.expo.dev/552f0665-e30d-4f11-9ea9-97bc22a22809"
-    },
     "runtimeVersion": {
       "policy": "appVersion"
     },
-    "owner": "arcadalabs",
     "platforms": [
       "ios",
       "android",
@@ -46,6 +37,12 @@
     "plugins": [],
     "ios": {
       "supportsTablet": true
+    },
+    "owner": "amir33.3",
+    "extra": {
+      "eas": {
+        "projectId": "9cbc2739-01f8-489d-9e1d-0b5183c3275b"
+      }
     }
   }
 }
